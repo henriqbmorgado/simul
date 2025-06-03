@@ -24,10 +24,16 @@ sync_chain() {
 # diretório base para simulação
 BASE_DIR="$(pwd)/tmp/simul"
 
+
 # nós, portas e users da simulação
 NODES=(n0 n1 n2)
 PORTS=(8330 8331 8332)
 USERS=(pioneiro ativo troll newbie neutro)
+
+# verifica se ja existe diretórioe o remove caso exista
+if [ -d $BASE_DIR ]; then
+  rm -rf "$BASE_DIR"
+fi
 
 # criar um diretório para cada nó
 for n in "${NODES[@]}"; do
