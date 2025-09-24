@@ -1,4 +1,4 @@
-# simul
+# simul (trabalho de simulação de rede p2p utilizando protocolo freechains)
 
 a. Reviews de produtos e lojas estão sujeitos à censura arbitrária pela moderação de aplicações centralizadas. A intenção da aplicação é permitir o compartilhamento dessas reviews em uma rede p2p não permissionada do protocolo Freechains.
 
